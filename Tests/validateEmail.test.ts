@@ -1,4 +1,4 @@
-import { validateEmail } from ../Functions/validateEmail;
+import { validateEmail } from '../Functions/validateEmail';
 
 test('Invalid email returns false', () => {
     expect(validateEmail('invalidemail')).toBe(false);
